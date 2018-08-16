@@ -1,7 +1,12 @@
+import Button from '@material-ui/core/Button';
+import * as firebaseui from 'firebaseui';
+
 import * as React from 'react';
+
 import './App.css';
 
 import logo from './logo.svg';
+
 
 class App extends React.Component {
   public render() {
@@ -9,11 +14,20 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Life API Signup</h1>
         </header>
         <p className="App-intro">
-          Bla bla bal <code>src/App.tsx</code> and save to reload.
+          The world's first public supply tracking backend
         </p>
+        <div>
+          <Button variant="contained" color="primary">
+            Sign In
+          </Button>
+          <br /><br />
+          <Button variant="contained" color="primary">
+            Signup
+          </Button>
+        </div>
       </div>
     );
   }
