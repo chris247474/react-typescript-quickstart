@@ -14,10 +14,10 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Life API Signup</h1>
+          <h1 className="App-title">Signup</h1>
         </header>
         <p className="App-intro">
-          The world's first public supply tracking backend
+          Intro Here
         </p>
         <div>
           <Button variant="contained" color="primary">
